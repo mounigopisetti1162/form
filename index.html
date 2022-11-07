@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style> table, th, td{border: 1px solid black;}</style>
+</head>
+<body>
+    <form method="post"action="#action-url">
+    <div class="container">
+    <div class="name" required><b>Name
+        <input type="text" class="feedback">
+        
+        <input type="text">
+    </div>
+    <div class="container">
+        <div id="id">Email
+            <input type="text">
+        </div>
+    </div>
+    <br>
+    <label><b>Your Experience</b></label> <br>
+    <span class="star-rating">
+        <input type="radio" name="rating" value="1"><i></i>
+        <input type="radio" name="rating" value="2"><i></i>
+        <input type="radio" name="rating1" value="3"><i></i>
+        <input type="radio" name="rating1" value="4"><i></i>
+        <input type="radio" name="rating1" value="5"><i></i>
+    </span>
+<div class="clear"></div> 
+<hr class="survey-hr">
+<div class="container">
+<label for=""><b>How satisfied are you with</b></label>
+<!-- <span class="radio-rating"><label for=""><br>
+    purchase</label><br>
+  worst <input type="radio" name="rating" value="1" ><i></i>
+  bad <input type="radio" name="rating" value="2"><i></i>
+  good <input type="radio" name="rating1" value="3"><i></i>
+   very good <input type="radio" name="rating1" value="4"><i></i>
+  excelent <input type="radio" name="rating1" value="5"><i></i>
+</span> -->
+</div>
+<table>
+    <tr>
+        <th> </th>
+        <th>very unsatisfied</th>
+        <th>unsatisfied</th>
+        <th>neutral</th>
+        <th>satisfied</th>
+        <th>very satisfied</th>
+    </tr>
+    <tr>
+        <th>purchase</th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+    </tr>
+    <tr>
+        <th>service</th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+    </tr>
+    <tr>
+        <th>Company overall</th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+    </tr>
+   
+</table>
+<label for=""><b>How likely are you to</b></label>
+<table>
+    <tr>
+        <th> </th>
+        <th>very unlikely</th>
+        <th>unlikely</th>
+        <th>neutral</th>
+        <th>likely</th>
+        <th>very likely</th>
+    </tr>
+    <tr>
+        <th>Buy for us again</th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+    </tr>
+    <tr>
+        <th>recomended for product</th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+    </tr>
+    <tr>
+        <th>Recomended for company others</th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+        <th><input type="radio" name="rating" value="1" ><i></i></th>
+    </tr>
+   
+</table>
+
+<label for=""><b>Additional comments or Suggestions</b></label>
+<div class="container">
+    <TEXTAREA Name="content" ROWS="2" COLS="60
+    "></TEXTAREA>
+</div>
+
+
+
+</form>
+</body>
+</html>
